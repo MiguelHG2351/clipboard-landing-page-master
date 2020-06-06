@@ -1,0 +1,10 @@
+body {
+    font-family: 'Bai Jamjuree', sans-serif;;
+}
+
+@media screen and (min-width: 375px) {
+    .header-site {
+        color: #4f5458;
+        background-image: url(images/bg-header-mobile.png);
+    }
+}
