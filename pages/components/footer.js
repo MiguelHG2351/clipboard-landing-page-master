@@ -15,13 +15,13 @@ class Footer extends Component {
             </ul>
             <div className="social-media">
                 <figure>
-                    <img src="/static/images/icon-facebook.svg" />
+                    <img src="/static/images/icon-facebook.svg" alt="logo de facebook" />
                 </figure>
                 <figure>
-                    <img src="/static/images/icon-twitter.svg" />
+                    <img src="/static/images/icon-twitter.svg" alt="Logo de twitter" />
                 </figure>
                 <figure>
-                    <img src="/static/images/icon-instagram.svg" />
+                    <img src="/static/images/icon-instagram.svg" alt="Logo de Instagram" />
                 </figure>
             </div>
         </footer>

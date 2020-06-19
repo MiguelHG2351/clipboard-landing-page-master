@@ -26,7 +26,11 @@ h1, h2 {
     color:#515659
 }
 
-@media screen and (min-width: 375px) {
+.icon-wrapper {
+    display: none;
+}
+
+@media screen and (min-width: 275px) {
 /*     
     body {
         height: 100vh;
@@ -165,6 +169,8 @@ h1, h2 {
         margin: auto;
         margin-top: 30px;
         flex-wrap: wrap;
+        padding: 20px;
+        background-color: #f5f6f8;
     }
 
     .logo-footer {
@@ -187,6 +193,7 @@ h1, h2 {
     .list-footer li {
         margin-bottom: 20px;
         font-size: 16px;
+        cursor: pointer;
     }
 
     .social-media {
@@ -194,13 +201,80 @@ h1, h2 {
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
+        cursor: pointer;
     }
 
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
+    
+    .btn-primary {
+        width: auto;
+    }
+    .btn-secondary {
+        width: auto;
+    }
+    
     .header-site {
         background: url(/static/images/bg-header-desktop.png), no-repeat, center, cover;
     }
+
+    h1, h2 {
+        font-size: 36px;
+    }
+
+    .header-download {
+        margin-top: 52px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 0 25px;
+        align-items: center;
+        width: auto;
+    }
+
+    .img-description {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 0 60px;
+        justify-content: space-between;
+    }
+
+    .figure {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /* p {
+        text-align: left !important;
+    } */
+
+    .snippet-img-description div p, .snippet-img-description div h2 {
+        text-align: left !important;
+    }
+
+    .supercharge-images {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 120px;
+    }
+
+    .download .btn-primary {
+        margin-right: 24px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    .list-footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 inherit;
+        /* flex-direction: row; */
+        justify-content: space-evenly;
+    }
+
 }

@@ -5,7 +5,7 @@ class Header extends Component {
         return <header className="header-site">
             <div className="header-container">
                 <div className="header-logo">
-                    <img src="/static/images/logo.svg" />
+                    <img src="/static/images/logo.svg" alt="Logo del sitio web" alt="Logo de la aplicación" />
                 </div>
                 <div className="header-title">
                     <h1>A history of everything you copy</h1>

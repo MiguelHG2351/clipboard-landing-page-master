@@ -10,15 +10,21 @@ class Snippets extends Component {
         </header>
         <div className="img-description">
             <div className="figure">
-            <img className="img-responsive" src="/static/images/image-computer.png" />
+                <img className="img-responsive" src="/static/images/image-computer.png" alt="Imagen de una computadora" />
             </div>
             <div className="snippet-img-description">
-                <h2>Quick Search</h2>
-                <p>Easily search your snippets by content, category,web address, application and more.</p>
-                <h2>iCloud Sync</h2>
-                <p>Instantly saves and syncs snippets across all your devices.</p>
-                <h2>Complete History</h2>
-                <p>Retrieve any snippets from the first moment you started using the app.</p>
+                <div>
+                    <h2>Quick Search</h2>
+                    <p>Easily search your snippets by content, category,web address, application and more.</p>
+                </div>
+                <div>
+                    <h2>iCloud Sync</h2>
+                    <p>Instantly saves and syncs snippets across all your devices.</p>
+                </div>
+                <div>
+                    <h2>Complete History</h2>
+                    <p>Retrieve any snippets from the first moment you started using the app.</p>
+                </div>
             </div>
         </div>
     </article>
